@@ -28,7 +28,7 @@ import org.luvx.entity.join.Student;
  */
 public class JoinMain1 {
 
-    private static final String host  = "211.159.175.179";
+    private static final String host  = "luvx";
     private static final int    port  = 59000;
     private static final int    port1 = 59001;
 
