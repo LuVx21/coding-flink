@@ -1,14 +1,28 @@
+<details>
+<summary>点击展开目录</summary>
+<!-- TOC -->
+
+- [maven](#maven)
+- [Usage](#usage)
+
+<!-- /TOC -->
+</details>
+
+## maven
+
+```bash
 mvn archetype:generate \
     -DarchetypeGroupId=org.apache.flink \
     -DarchetypeArtifactId=flink-quickstart-java \
-    -DarchetypeVersion=1.8.2 \
+    -DarchetypeVersion=1.11.1 \
     -DgroupId=org.luvx \
     -DartifactId=flink-quickstart-java \
     -Dversion=1.0.1-SNAPSHOT \
     -Dpackage=org.luvx \
     -DinteractiveMode=false
+```
 
-
+## Usage
 
 nc -l 9000
 ./bin/flink run examples/streaming/SocketWindowWordCount.jar --port 9000
